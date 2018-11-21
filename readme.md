@@ -2,11 +2,11 @@
 -  1.文件放在Source/Scene目录下
 
 -  2.修改Cesium.js源码
-找到WebMapServiceImageryProvider,然后添加对应的WebFeatureServiceImageryProvider的代码
- (1)Cesium['WebFeatureServiceImageryProvider'] = Scene_WebFeatureServiceImageryProvider;
- Cesium['WebMapServiceImageryProvider'] = Scene_WebMapServiceImageryProvider;
+  找到WebMapServiceImageryProvider,然后添加对应的WebFeatureServiceImageryProvider的代码
+ *    (1)Cesium['WebFeatureServiceImageryProvider'] = Scene_WebFeatureServiceImageryProvider;
+         Cesium['WebMapServiceImageryProvider'] = Scene_WebMapServiceImageryProvider;
 
- (2)'./Scene/WebFeatureServiceImageryProvider', './Scene/WebMapServiceImageryProvider'
+ *    (2)'./Scene/WebFeatureServiceImageryProvider', './Scene/WebMapServiceImageryProvider'
   
  -  3.sandcastle中使用代码如下：
 
