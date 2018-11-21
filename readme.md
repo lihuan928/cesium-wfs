@@ -1,4 +1,7 @@
-使用方式：
+参考链接https://github.com/sushrut141/Cesium-WebFeatureService
+由于原生代码有问题，文档也不完整，我做了修改，并写了使用手册。
+
+# 使用方式
 -  1.文件放在Source/Scene目录下
 
 -  2.修改Cesium.js源码
